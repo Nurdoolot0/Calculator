@@ -1,0 +1,20 @@
+<resources>
+    <!-- Базовый стиль для всех кнопок -->
+    <style name="CalculatorButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:background">#333333</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- Стиль для кнопок операторов -->
+    <style name="CalculatorButtonOperatorStyle" parent="CalculatorButtonStyle">
+        <item name="android:textColor">@android:color/white</item> <!-- Используем чисто белый цвет текста -->
+    </style>
+
+</resources>
